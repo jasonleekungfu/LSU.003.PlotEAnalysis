@@ -35,6 +35,7 @@ small = 1e-7                                # Infinitasimal
 
 lnum = { "s": 0, "p": 1, "d": 2, "f": 3, "g": 4}
 llet = {v: k for k, v in lnum.items()}
+Ip = {"he": 0.903247020452234, "ne": 0.793253117866589}
 
 def read2DData(fp, emit=0):
     """
